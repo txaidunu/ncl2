@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Joan “Joannie” Gloeckler King — The Newman Cuff</title>
+  <meta name="description" content="A hand-polished World War II aircraft aluminum cuff. Crafted by a young Paul Newman for Joan Gloeckler. The last physical footprint of a romance that fame almost erased." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <style>
+    .appendices { background: var(--navy); }
+    .appendix-list {
+      display: grid;
+      gap: 0.85rem;
+      margin-top: 2.75rem;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .appendix-btn {
+      display: block;
+      padding: 1.2rem 1.45rem;
+      background: rgba(0, 0, 0, 0.22);
+      border: 1px solid rgba(201, 168, 76, 0.14);
+      transition: border-color 0.35s var(--ease), background 0.35s var(--ease), transform 0.35s var(--ease);
+      text-align: left;
+    }
+    .appendix-btn:hover {
+      border-color: rgba(201, 168, 76, 0.4);
+      background: rgba(201, 168, 76, 0.06);
+      transform: translateX(5px);
+    }
+    .appendix-btn .ab-key {
+      display: block;
+      font-size: 0.65rem;
+      font-weight: 500;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.4rem;
+    }
+    .appendix-btn .ab-title {
+      font-family: var(--font-serif);
+      font-size: 1.12rem;
+      font-weight: 400;
+      color: var(--ivory);
+      line-height: 1.35;
+    }
+    .hero-line {
+      width: 48px;
+      height: 1px;
+      background: var(--gold);
+      margin: 0 auto 2.4rem;
+      opacity: 0;
+      animation: fadeUp 1s var(--ease) 0.85s forwards;
+    }
+    .inscription {
+      font-family: var(--font-serif);
+      font-size: 1.25rem;
+      color: var(--ivory);
+      font-style: italic;
+      margin: 0.75rem 0 1.1rem;
+    }
+    .hero-title.name-title {
+      font-size: clamp(2.6rem, 6.4vw, 4.8rem);
+      line-height: 1.05;
+      letter-spacing: 0.01em;
+    }
+    .late-life-heading {
+      font-family: var(--font-serif);
+      font-weight: 400;
+      font-size: clamp(1.55rem, 3vw, 2.05rem);
+      color: var(--ivory);
+      text-align: center;
+      margin: 0 0 1.75rem;
+      letter-spacing: 0.01em;
+    }
+  </style>
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">Newman Cuff Legacy</a>
+      <div class="nav-links">
+        <a href="#artifact">The Cuff</a>
+        <a href="#before">Before Fame</a>
+        <a href="#joannie">Joannie</a>
+        <a href="#silence">The Silence</a>
+        <a href="#archive">Archive</a>
+        <a href="#appendices">Appendices</a>
+        <a href="#inquire" class="nav-cta">Inquire</a>
+      </div>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <header class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-overline">The Joannie Gloeckler King Archive</p>
+      <h1 class="hero-title name-title">Joan “Joannie” Gloeckler King</h1>
+      <p class="hero-subtitle">
+        Crafted by a young sailor named Paul Newman<br />
+        for the girl who knew him before the world did.
+      </p>
+      <div class="hero-line"></div>
+      <p class="hero-quote">
+        No photograph of them together survived.<br />
+        This is what remains.
+      </p>
+    </div>
+    <div class="hero-scroll">
+      <span>Enter</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <section class="section artifact" id="artifact">
+    <div class="container">
+      <div class="section-header">
+        <span class="act-label">Prologue</span>
+        <h2>Metal from the Sky</h2>
+      </div>
+
+      <div class="artifact-showcase">
+        <div class="artifact-image-wrap">
+          <img src="images/DSC04648.JPG" alt="The Paul Newman Aviation Cuff — WWII aircraft aluminum with USAAF Bombardier Badge" class="artifact-image" id="cuffImage" />
+          <p class="image-caption">Hand-polished WWII aircraft aluminum · USAAF Bombardier Badge</p>
+        </div>
+
+        <div class="artifact-text">
+          <p class="lead">
+            A thick, hand-formed cuff cut from World War II aircraft aluminum.
+            At its center: the striking, outspread wings of a United States Army Air Forces Bombardier —
+            a downward-facing bomb between those wings, contoured and dual-riveted to the band.
+          </p>
+          <p>
+            This is not costume jewelry. It is trench art.
+            Scrap from the machines that kept young men alive,
+            turned into a token for the woman who kept one of them human.
+          </p>
+          <p>
+            Newman served in the Navy as an Aviation Radioman and Ordnance Specialist.
+            Archival research reveals he went out of his way to acquire these specific wings —
+            evidently bartering on base for their more distinguished design over standard naval issue.
+          </p>
+          <p>
+            He made it during his wartime service and gave it to
+            Joan “Joannie” Gloeckler — high-school and college sweetheart,
+            the girl who knew the boy before the blue eyes became legend.
+          </p>
+
+          <div class="specs">
+            <div class="spec">
+              <span class="spec-label">Material</span>
+              <span class="spec-value">WWII aircraft aluminum, hand-polished</span>
+            </div>
+            <div class="spec">
+              <span class="spec-label">Insignia</span>
+              <span class="spec-value">USAAF Bombardier Badge (downward-facing bomb, outspread wings)</span>
+            </div>
+            <div class="spec">
+              <span class="spec-label">Form</span>
+              <span class="spec-value">Sweetheart Bracelet / trench-art cuff — dual-riveted badge</span>
+            </div>
+            <div class="spec">
+              <span class="spec-label">Era</span>
+              <span class="spec-value">Circa 1943–1945</span>
+            </div>
+            <div class="spec">
+              <span class="spec-label">Source</span>
+              <span class="spec-value">Estate of Joan “Joannie” Gloeckler King</span>
+            </div>
+          </div>
+
+          <p class="poetry">
+            Sky-metal that once knew altitude.<br />
+            Now the last physical footprint<br />
+            of a foundational American romance.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section before" id="before">
+    <div class="container">
+      <div class="section-header">
+        <span class="act-label">Act I</span>
+        <h2>Before the Blue Eyes<br />Were Famous</h2>
+        <p class="section-intro">
+          Shaker Heights. Denison. A large grey Chrysler his father called safe.
+          Dates at a deli on Chagrin Boulevard. The ordinary years that made the legend possible.
+        </p>
+      </div>
+
+      <div class="story-grid">
+        <div class="story-block">
+          <div class="story-image">
+            <img src="images/20260720_164746.jpg" alt="Budin’s Delicatessen, Shaker Heights" />
+          </div>
+          <div class="story-content">
+            <h3>Budin’s, Chaperones &amp; Boogie-Woogie</h3>
+            <p>
+              Romance lived at <strong>Budin’s Delicatessen</strong> — 17133 Chagrin Boulevard.
+              The neon, the booths, the exact doorway still visible in the photographs she kept.
+            </p>
+            <p>
+              She had to bring her little brother John as chaperone.
+              They stashed him under the stairs.
+            </p>
+            <p>
+              And there, in the back, Paul played boogie-woogie piano —
+              loud, private, joyful. A talent almost no one later knew he had.
+            </p>
+            <p class="note">
+              When he left for the Navy she declined his fraternity pin.
+              Decades later she laughed: “I was already keeping too many others. (That was mean.)”
+            </p>
+          </div>
+        </div>
+
+        <div class="story-block reverse">
+          <div class="story-image">
+            <img src="images/20260719_143836.jpg" alt="Paul Newman in Navy whites — Body and Soul Bumckus" />
+          </div>
+          <div class="story-content">
+            <h3>Body and Soul — “Bumckus”</h3>
+            <p>
+              The inscribed Navy portrait he gave her.
+              White uniform. Palm trees. His handwriting across the bottom:
+            </p>
+            <p class="inscription">“Body and Soul – ‘Bumckus’”</p>
+            <p>
+              A private sign-off. A nickname.
+              Proof that the future icon once wrote only for her.
+            </p>
+            <p class="note">
+              While he was gone she helped his mother pack care packages.
+              Popcorn as insulation. Wax paper around the cake.
+              The Gloeckler family maintained a notable multi-generational passion for popcorn.
+              Joan proudly noted that her mother and family “taught him everything he knows about popcorn.”
+              The methods behind his future culinary legacy were anchored in the Gloeckler family kitchen.
+            </p>
+          </div>
+        </div>
+
+        <div class="story-block">
+          <div class="story-image">
+            <img src="images/20201120_120104.jpg" alt="Jax Florida scrapbook page — Paul Newman, 1944" />
+          </div>
+          <div class="story-content">
+            <h3>The Boy in Jacksonville</h3>
+            <p>
+              One of the very few surviving photographs of Paul from the years that matter most to this story.
+              Mounted in her scrapbook with care and labeled in her hand:
+            </p>
+            <p class="inscription">
+              “Paul Newman (Phi Tau)<br />
+              Jax., Florida / 1944”
+            </p>
+            <p>
+              Not the movie star. Not the icon. Just the young sailor she knew —
+              the one who played boogie-woogie, drove the grey Chrysler,
+              and shaped sky-metal with his own hands.
+            </p>
+            <p class="note">
+              The handwriting is believed to be Joan’s, not Newman’s.
+              His hand is the portrait inscription. The physical scrapbook page has not been located;
+              only this photograph of it remains.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section joannie" id="joannie">
+    <div class="container">
+      <div class="section-header light">
+        <span class="act-label">Act II</span>
+        <h2>The Woman Who Stayed<br />Stunning Past Ninety-Four</h2>
+        <p class="section-intro">
+          Parties. Clothes. Green olives. Potato chips. Golf. Convertibles. Antiques.
+          She stayed on the pulse of things until the very end —
+          and at ninety-three still looked devastating in mirrored aviators.
+        </p>
+      </div>
+
+      <h3 class="late-life-heading">Late-Life Visual Legacy (The Spirit of Joannie)</h3>
+      <div class="glamour-row">
+        <div class="glamour-card">
+          <img src="images/JK 4.1.20.jpg" alt="Joannie at 93 in mirrored aviators waving from her convertible" />
+          <p><strong>Age 93 · April 2020</strong><br />Mirrored aviators. Convertible. Still waving.</p>
+        </div>
+        <div class="glamour-card">
+          <img src="images/JK NYE 2.jpg" alt="Joannie NYE 2020 black-tie with stepdaughter" />
+          <p><strong>The Pandemic New Year's Eve Spoof (December 2020)</strong><br />A black-tie spoof with her stepdaughter. Zero interest in acting her age.</p>
+        </div>
+        <div class="glamour-card">
+          <img src="images/JK.birthday.94 (1).jpg" alt="Joannie 94th birthday" />
+          <p><strong>The 94th Birthday</strong><br />Pink cardigan. Thumbs up. The same charisma and smile.</p>
+        </div>
+      </div>
+
+      <div class="glamour-row" style="max-width: 360px; margin: 0 auto 3rem;">
+        <div class="glamour-card">
+          <img src="images/JK red jacket.jpeg" alt="Joannie in her nineties wearing a red jacket" />
+          <p><strong>In her nineties · Red jacket</strong><br />The obituary photo. Still radiant.</p>
+        </div>
+      </div>
+
+      <div class="joannie-bio">
+        <div class="bio-text">
+          <h3>Joan “Joannie” Gloeckler King</h3>
+          <p class="bio-years">1926 – 2021</p>
+          <p>
+            Joan “Joannie” Gloeckler King (1926 – 2021) was an force of nature—full of joy, elegance, and a wonderfully sharp sense of humor.
+            Shaker Heights High School, June 7, 1944.
+            Denison University — art major, Delta Delta Delta, voted the campus "Sweetheart of Sigma Chi."
+            Cleveland Institute of Art.
+          </p>
+          <p>
+            Forty years a board-certified interior designer (ASID).
+            Painter in watercolor, oil, gouache.
+            Worked on site in Monet’s garden at Giverny, the Cotswolds, Paris, Venice.
+          </p>
+          <p>
+            Lifelong golfer. Country Club of Pepper Pike.
+            Wilderness Country Club, Naples.
+            She divided her time between her beloved residence of 25 years in Ohio, and later Naples, Florida.
+            Convertible driver into her final years.
+          </p>
+          <p class="highlight">
+            She kept the pulse of fashion, parties, and life itself until 95.
+            And she kept his wartime token when every rule of her era
+            said she was supposed to destroy it.
+          </p>
+        </div>
+        <div class="bio-images">
+          <img src="images/20260720_164735.jpg" alt="Joannie — large engagement / glamour portrait" />
+          <img src="images/20260720_164704.jpg" alt="Joannie in bathing suit — youthful summer glamour" />
+          <img src="images/20250520_130651.jpg" alt="Joannie in the courtyard of her beloved Ohio home, Riverstone" />
+          <img src="images/20260720_164604.jpg" alt="Young Joannie sitting on a porch by a pillar" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section silence" id="silence">
+    <div class="container narrow">
+      <div class="section-header">
+        <span class="act-label">Act III</span>
+        <h2>The Silence That<br />Made It Sacred</h2>
+      </div>
+
+      <div class="silence-content">
+        <p class="lead-large">
+          After the war a magazine profile of Newman mentioned a life-altering “Dear John” letter.
+          In the archive sits the clipping. In her own hand she wrote:
+        </p>
+
+        <div class="dear-john">
+          <img src="images/20260720_175441.jpg" alt="Magazine clipping with Joannie’s handwritten annotation about the Dear John letter" />
+          <p class="image-caption">“The ‘Dear John’ letter that I wrote to Paul is mentioned in this magazine.”</p>
+        </div>
+
+        <div class="silence-text">
+          <h3>The Archival Gap Analysis (The Missing Letters)</h3>
+          <p>
+            Upon her formal marriage in October 1948, Joan destroyed the extensive personal letters written to her by Paul Newman during their courtship, as was the custom of that time. While this concludes a standard paper trail, it establishes an authentic historical explanation for the absence of correspondence and exponentially increases the historical rarity and value of the surviving artifacts. These remaining physical assets represent the last surviving material footprints of this foundational relationship.
+          </p>
+          <p>
+            On October 2, 1948, Joan Lynn Gloeckler married her first husband, Randall Duane Fulmer, at the First Baptist Church in Greater Cleveland, with a formal reception following at a private local club. In an extraordinary testament to the enduring familial and personal bond between the sweethearts, a young Paul Newman—then a student at Kenyon College—traveled to Cleveland to attend the wedding in person. As a profound, bittersweet gesture marking the formal conclusion of their romantic chapter, Newman gifted the newlyweds a custom, engraved silver serving tray.
+          </p>
+          <p>
+            That custom is why the paper trail ends.
+            That custom is why photographs of the two of them together do not exist.
+            That custom is why what she chose to keep is almost holy.
+          </p>
+          <p class="climax">
+            She was supposed to destroy this cuff.<br />
+            She did not.<br /><br />
+            No photograph of them together survived.<br />
+            The metal did.
+          </p>
+        </div>
+
+        <div class="reunion">
+          <h3>The Tea Room Reunion</h3>
+          <p>
+            Decades after the war, Joan visited Mrs. Newman for tea after noticing Paul's face on collegiate dorm posters while touring schools with her daughters. During the visit, Mrs. Newman gifted the family signed photographs of Paul and wistfully asked, “Oh Joannie, aren't you sorry?” to which Joan replied, “No, no, I'm happily married.”
+          </p>
+        </div>
+
+        <div class="reunion">
+          <h3>Decades later — the whisper</h3>
+          <p>
+            In an exclusive Los Angeles designer showroom, Joannie walked up behind
+            Newman (standing with Joanne Woodward) and said quietly,
+            “Guess who’s standing next to you?”
+            The legend flushed. The wartime objects had already outlived
+            every rule that tried to erase them.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section archive" id="archive">
+    <div class="container">
+      <div class="section-header">
+        <span class="act-label">Act IV</span>
+        <h2>What She Kept</h2>
+        <p class="section-intro">
+          The cuff. The inscribed portrait. The scrapbook. The diploma.
+          The annotations in her own hand.
+          The last material witnesses to a story fame almost erased.
+        </p>
+      </div>
+
+      <div class="archive-grid" id="archiveGrid">
+        <figure class="archive-item">
+          <img src="images/DSC04648.JPG" alt="The Paul Newman Aviation Cuff with USAAF Bombardier Badge" />
+          <figcaption>The Aviation Cuff<br />USAAF Bombardier Badge on aircraft aluminum</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260719_143836.jpg" alt="Inscribed Navy portrait" />
+          <figcaption>Inscribed Navy portrait<br />“Body and Soul – ‘Bumckus’”</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20201120_120104.jpg" alt="Jax Florida scrapbook" />
+          <figcaption>Jax, Florida scrapbook<br />Photograph of the page — believed Joan’s hand</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_164735.jpg" alt="Large glamour / engagement portrait of Joannie" />
+          <figcaption>The large portrait<br />Engagement-era glamour</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260719_143557.jpg" alt="High-school formal" />
+          <figcaption>High-school formal<br />Flower in her hair</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_164704.jpg" alt="Joannie in bathing suit — youthful summer glamour" />
+          <figcaption>Bathing suit<br />Youthful summer glamour</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_164654.jpg" alt="Joannie standing in a Shaker Heights yard" />
+          <figcaption>Shaker Heights yard<br />Young Joannie at home</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_164604.jpg" alt="Joannie sitting on porch by pillar" />
+          <figcaption>Porch &amp; pillar<br />The smile that started it</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_164626.jpg" alt="Joannie at Denison pillars / gates" />
+          <figcaption>Denison gates<br />College years</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20250520_130651.jpg" alt="Joannie in the courtyard of her beloved Ohio home" />
+          <figcaption>Riverstone courtyard<br />Her beloved Ohio home</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_164617.jpg" alt="Budin’s Delicatessen" />
+          <figcaption>Budin’s Delicatessen<br />17133 Chagrin Blvd</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_175435.jpg" alt="Diploma" />
+          <figcaption>Diploma<br />June 7, 1944</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260331_200736.jpg" alt="Engagement announcement" />
+          <figcaption>Cleveland Plain Dealer<br />Engagement announcement</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_175441.jpg" alt="Dear John annotation" />
+          <figcaption>Her handwritten note<br />“I wrote the Dear John letter”</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_164727.jpg" alt="Lawn chair candid" />
+          <figcaption>The lawn chair<br />Pure glamour, even damaged</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_164718.jpg" alt="Childhood golf" />
+          <figcaption>Childhood golf<br />The family passion</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_164644.jpg" alt="Collegiate friends" />
+          <figcaption>Collegiate circle<br />Denison years</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/JK red jacket.jpeg" alt="Joannie in her 90s red jacket" />
+          <figcaption>In her nineties<br />The red jacket</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260331_201438.jpg" alt="Wedding invitation news" />
+          <figcaption>Wedding announcement<br />“Request Honor of Your Presence”</figcaption>
+        </figure>
+        <figure class="archive-item">
+          <img src="images/20260720_164546.jpg" alt="Gloeckler home in winter" />
+          <figcaption>The family home<br />Shaker Heights, winter</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="section significance" id="significance">
+    <div class="container narrow">
+      <div class="section-header">
+        <span class="act-label">Act V</span>
+        <h2>Why This Object<br />Matters</h2>
+      </div>
+
+      <div class="significance-grid">
+        <div class="sig-card">
+          <h3>Pre-fame intimacy</h3>
+          <p>
+            Newman memorabilia is vast.
+            Personal wartime tokens given to a named high-school sweetheart —
+            with matching inscription, scrapbook, and her own handwriting —
+            are vanishingly rare.
+          </p>
+        </div>
+        <div class="sig-card">
+          <h3>The survival itself</h3>
+          <p>
+            She was supposed to destroy it.
+            The culture of 1948 demanded the earlier romance be erased.
+            That she kept the cuff, the portrait, and the annotations
+            is the entire point.
+          </p>
+        </div>
+        <div class="sig-card">
+          <h3>A Unique Biographical Connection</h3>
+          <p>
+            Hollywood legend, World War II Navy service, Shaker Heights upbringing, and collegiate proximity all run through the history of an elegant family that shared its kitchen traditions with a future icon.
+          </p>
+        </div>
+      </div>
+
+      <blockquote class="final-quote">
+        Sky-metal that once flew in war.<br />
+        Shaped by the hands of a future icon.<br />
+        Worn by a woman who stayed dazzling for nine decades.<br />
+        Spared from the fire that was supposed to take it.<br /><br />
+        The last physical footprint<br />
+        of the boy before the legend.
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section inquire" id="inquire">
+    <div class="container narrow">
+      <div class="section-header">
+        <h2>Stewardship</h2>
+        <p class="section-intro">
+          This cuff deserves a guardian who understands what it actually is:
+          not memorabilia, but the last material witness to a foundational American love story.
+        </p>
+      </div>
+
+      <div class="inquire-box">
+        <p>
+          Serious collectors, museums, and private institutions
+          are invited to inquire about the Paul Newman Aviation Cuff
+          and the broader Joannie Gloeckler King archive.
+        </p>
+        <a href="mailto:haeberlinrobbin@gmail.com?subject=Newman%20Cuff%20Legacy%20—%20Private%20Inquiry" class="inquire-btn">
+          Inquire Privately
+        </a>
+        <p class="email-note">
+          haeberlinrobbin@gmail.com<br />
+          <span>Subject: Newman Cuff Legacy — Private Inquiry</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section appendices" id="appendices">
+    <div class="container">
+      <div class="section-header">
+        <span class="act-label">Supporting Records</span>
+        <h2>Archival Appendices</h2>
+      </div>
+
+      <div class="appendix-list">
+        <a class="appendix-btn" href="appendix-a.html">
+          <span class="ab-key">Appendix A</span>
+          <span class="ab-title">Appendix A: Provenance Correspondence (The "Fun Obit" Emails)</span>
+        </a>
+        <a class="appendix-btn" href="appendix-b.html">
+          <span class="ab-key">Appendix B</span>
+          <span class="ab-title">Appendix B: The Official Obituary &amp; Life Record</span>
+        </a>
+        <a class="appendix-btn" href="appendix-c.html">
+          <span class="ab-key">Appendix C</span>
+          <span class="ab-title">Appendix C: Archival Discovery &amp; Oral History Log (Part I)</span>
+        </a>
+        <a class="appendix-btn" href="appendix-d.html">
+          <span class="ab-key">Appendix D</span>
+          <span class="ab-title">Appendix D: Historical Overview &amp; Anecdotal Provenance (Part II)</span>
+        </a>
+        <a class="appendix-btn" href="appendix-e.html">
+          <span class="ab-key">Appendix E</span>
+          <span class="ab-title">Appendix E: Technical Analysis &amp; Cross-Branch Service Breakdown (Part III)</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-logo">Newman Cuff Legacy</p>
+      <p class="footer-tag">The Joannie Gloeckler King Archive</p>
+      <p class="footer-copy">© Estate of Joan “Joannie” Gloeckler King. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">&times;</button>
+    <img src="" alt="" id="lightboxImg" />
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
